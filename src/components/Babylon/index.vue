@@ -2,7 +2,7 @@
  * @Author: strivelei strivelei@foxmail.com
  * @Date: 2026-01-29 16:43:16
  * @LastEditors: strivelei strivelei@foxmail.com
- * @LastEditTime: 2026-01-29 17:48:06
+ * @LastEditTime: 2026-01-30 11:12:49
  * @FilePath: src/components/Babylon/index.vue
  * @Description: Babylon.js 入口文件
  -->
@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { useProvideBabylonStore } from './stores/useBabylonStore.ts'
 
-console.log('进入Babylon')
+console.log('🚀进入Babylon')
 const { scene, canvasRef } = useProvideBabylonStore()
 </script>
 
