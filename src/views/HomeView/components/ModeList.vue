@@ -11,7 +11,7 @@
 // import { registerBuiltInLoaders } from '@babylonjs/loaders/dynamic'
 import { AppendSceneAsync, Tools } from '@babylonjs/core'
 import { useBabylonStore } from '@/components/Babylon/stores/useBabylonStore.ts'
-// import '@babylonjs/loaders/glTF/2.0'
+import '@babylonjs/loaders/glTF/2.0'
 // Tools.ScriptBaseUrl = 'https://cdn.babylonjs.com/v8.49.6'
 // import 'babylonjs-loaders'
 // registerBuiltInLoaders()
