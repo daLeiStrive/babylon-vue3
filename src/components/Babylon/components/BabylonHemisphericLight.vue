@@ -2,7 +2,7 @@
  * @Author: strivelei strivelei@foxmail.com
  * @Date: 2026-01-30
  * @LastEditors: strivelei strivelei@foxmail.com
- * @LastEditTime: 2026-01-30 11:12:49
+ * @LastEditTime: 2026-02-02 15:24:39
  * @FilePath: src/components/Babylon/components/BabylonHemisphericLight.vue
  * @Description: 半球光
  -->
@@ -68,7 +68,7 @@ watchEffect(() => {
 onBeforeUnmount(() => {
   light.dispose()
 })
-console.log('🚀 ~  ~ light: ', light)
+
 defineExpose({
   instance: light,
 })
